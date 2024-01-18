@@ -1,8 +1,11 @@
 <div align="center">
-<h1>hte</h1>
+<h1>Heterogeneity of treatment effect (hte)</h1>
 </div>
 
 Time-to-event subgroup analysis for randomized control trials
+
+![hte](hte_plot.png)
+
 
 ## A- Installation
 
