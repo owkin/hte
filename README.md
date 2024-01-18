@@ -6,20 +6,16 @@ Time-to-event subgroup analysis for randomized control trials
 
 ## A- Installation
 
-Start by cloning the repository:
-
 ```
-git clone https://{your_owkin_git_token}@github.com/owkin/subgroup_analysis.git
+git clone https://github.com/owkin/hte.git
 ```
 
-Then: [TO BE CHANGED PROBABLY FOR EXTERNAL USE]
+Then:
 ```
 conda create -n hte python=3.9
 conda activate hte
 pip install "poetry==1.5.1"
-make config
-make install-all
-pre-commit install
+poetry install
 ```
 
 
