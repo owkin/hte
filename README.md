@@ -137,7 +137,3 @@ python launch_expe.py -f="Cox_Weibull_1.0_2.0_dim=20_range=[-10.0,10.0]_nb=500_g
 ```
 
 This step reproduces the following file, available in `experiments/results_expe` folder: `Cox_Weibull_1.0_2.0_dim=20_range=[-10.0,10.0]_nb=500_group='dim20_pred4_prog0_balanced_rangeARR=[0.0, 0.432410680647274]_nb=10_train=250_test=250_repet=100_censored=True_scale=1.0_October_10_06_2023_16:19:45.csv`
-
-## Documentation
-
-The documentation can be found [here](https://owkin.github.io/subgroup_analysis).
