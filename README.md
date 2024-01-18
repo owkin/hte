@@ -1,5 +1,5 @@
 <div align="center">
-<h1>subgroup_analysis</h1>
+<h1>hte</h1>
 </div>
 
 Time-to-event subgroup analysis for randomized control trials
