@@ -107,12 +107,12 @@ Follow the steps in B. In step B-3, use the command line and modify the `[-m MET
 
 ## D- Benchmarking experiment analysis
 
-Raw and processed results are available in `experiments/results_expe` folder. 
-In the same folders, analysis files are available; they can be converted to .ipynb notebooks using the following command:
+Processed results from the main figures of [LINK PAPER] are available in `experiments/results_expe/processed_results/` folder. 
+In the `results_expe/` folder, analysis files are available; they can be converted to .ipynb notebooks using the following command:
 
-```jupytext --to notebook analysis_rq1.py```
+```jupytext --to notebook <FILENAME>.py```
 
-will create a analysis_rq1.ipynb file. 
+which will create a <FILENAME>.ipynb file. 
 The notebooks can be run to recreate the figures of our [LINK PAPER], as well as producing exploration tables for the different experiment scenarios and research questions.
 
 ## Example - Running a benchmarking experiment in dimension p=20
