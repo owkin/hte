@@ -136,7 +136,7 @@ This step reproduces the following file, available in `data/results_compute_arr`
 Experiments are run 10 points of ARR, with 100 repeats per ARR, with a sample size of 500 and 50-50 train-test split, following censorship scenario (1), when located in the `experiments` folder:
 
 ```
-python launch_expe.py -f="Cox_Weibull_1.0_2.0_dim=20_range=[-10.0,10.0]_nb=500_group=[dim20_pred4_prog0_balanced]_July_07_12_2023_15:15:24.json -n=10 -s=500 -tr=0.5 -r=100 -c=True -sc=1.0"
+python launch_expe.py -f="../data/results_compute_arr/Cox_Weibull_1.0_2.0_dim=20_range=[-10.0,10.0]_nb=500_group=[dim20_pred4_prog0_balanced]_July_07_12_2023_15:15:24.json" -n=10 -s=500 -tr=0.5 -r=100 -c=True -sc=1.0 -m="Oracle, Univariate interaction, Univariate t_test, Multivariate cox"
 ```
 
 This step reproduces the following file, available in `experiments/results_expe` folder: `Cox_Weibull_1.0_2.0_dim=20_range=[-10.0,10.0]_nb=500_group='dim20_pred4_prog0_balanced_rangeARR=[0.0, 0.432410680647274]_nb=10_train=250_test=250_repet=100_censored=True_scale=1.0_October_10_06_2023_16:19:45.csv`
