@@ -45,18 +45,6 @@ if __name__ == '__main__':
         type=str,
         help="Path of file containing compute_arr results."
     )
-    # parser.add_argument(
-    #     '-l',
-    #     '--minval',
-    #     type=float,
-    #     help="Min value of the arrs."
-    # )
-    # parser.add_argument(
-    #     '-u',
-    #     '--maxval',
-    #     type=float,
-    #     help="Max value of the arrs."
-    # )
     parser.add_argument(
         '-n',
         '--nbpoints',
