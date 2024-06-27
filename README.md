@@ -2,7 +2,7 @@
 <h1>Heterogeneity of treatment effect (hte)</h1>
 </div>
 
-Time-to-event subgroup analysis for randomized control trials
+Time-to-event subgroup analysis for randomized controlled trials
 
 ![hte](hte_plot.png)
 
